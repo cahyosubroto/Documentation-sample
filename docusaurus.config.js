@@ -88,7 +88,7 @@ const config = {
               },
               {
                 type: 'doc',
-                label: 'Babylon Solution',
+                label: 'Our Solution',
                 docId: 'summary'
               },
             ]

@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/number2.svg').default,
     description: (
       <>
-        Our work include both basic research as well as collaboration with industry projects on improving the security of Cosmos zones and other PoS chains.
+        Our work includes basic research and collaboration with industry projects on improving the security of Cosmos zones and other PoS chains.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/number3.svg').default,
     description: (
       <>
-        We identified some critical attacks as well as designed optimal protocols to achieve the objectives of PoS Ethereum.
+        We design optimal protocols to achieve the objectives of PoS Ethereum.
       </>
     ),
   },
@@ -35,7 +35,7 @@ const FeatureList = [
     Svg: require('@site/static/img/number4.svg').default,
     description: (
       <>
-        Our mission is to bring Bitcoin’s unparalleled security to all PoS blockchains without any extra energy cost.
+        Our mission is to bring Bitcoin’s unparalleled security to all PoS blockchains without extra energy costs.
       </>
     ),
   },

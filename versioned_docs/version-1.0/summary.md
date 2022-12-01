@@ -1,13 +1,13 @@
 ---
 
-sidebar_label: Babylon Solutions
+sidebar_label: Our Solutions
 sidebar_position: 3
 custom_edit_url: null
 
 
 ---
 
-# Babylon's Solutions
+# Our Solutions
 
 ## Underlying Security Issues within Proof-of-Stake
 
