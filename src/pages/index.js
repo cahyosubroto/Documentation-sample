@@ -23,7 +23,7 @@ function HomepageHeader() {
           </Link>
         </div>
       </div>
-      <img className='image' src='https://img1.wsimg.com/isteam/ip/6f380b15-78c1-4a0d-9bc4-3e2fa49378cf/homepage_picture-1057d3c.jpg/:/'></img>
+      <img className='image' src='https://i.ibb.co/Ms35zL8/Asset-2.png'></img>
       </div>
     </header>
   );

@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Experienced Team',
-    Svg: require('@site/static/img/number1.svg').default,
+    Svg: require('@site/static/img/Group-1.svg').default,
     description: (
       <>
         Our team consists of consensus protocol researchers from Stanford and experienced layer 1 developers from all over the world.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Our Work',
-    Svg: require('@site/static/img/number2.svg').default,
+    Svg: require('@site/static/img/Group-3.svg').default,
     description: (
       <>
         Our work includes basic research and collaboration with industry projects on improving the security of Cosmos zones and other PoS chains.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'What We Do',
-    Svg: require('@site/static/img/number3.svg').default,
+    Svg: require('@site/static/img/Group-4.svg').default,
     description: (
       <>
         We design optimal protocols to achieve the objectives of PoS Ethereum.
@@ -32,7 +32,7 @@ const FeatureList = [
   },
   {
     title: 'Our Mission',
-    Svg: require('@site/static/img/number4.svg').default,
+    Svg: require('@site/static/img/Group-2.svg').default,
     description: (
       <>
         Our mission is to bring Bitcoin’s unparalleled security to all PoS blockchains without extra energy costs.
