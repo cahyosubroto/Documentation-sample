@@ -1,6 +1,6 @@
 ---
 
-sidebar_label: Babylon's solutions
+sidebar_label: Babylon Solutions
 sidebar_position: 3
 custom_edit_url: null
 
@@ -252,13 +252,12 @@ timestamps. If we send a timestamp every 5 minutes, our users will expect to rec
 
 
 ### - On-chain BTC oracle
-The on-chain BTC oracle is called <code>btc_light_client</code> in the code. It is application module inside the Babylon node. It is a typical BTC light client that maintains a BTC header chain, and can answer the following questions:
-1. whether a BTC block is in the canonical BTC chain and how deep it is.
-2. whether a BTC transaction’s inclusion proof is correct.
+The **On-chain BTC Oracle** is an application module inside the Babylon node. It is a typical BTC light client that maintains a BTC header chain, and can verify the following questions:
 
-The answer to these questions will help Babylon nodes make decisions on BTC timestamps.
-This module receives BTC headers from Tendermint as Babylon transactions, and these transactions are submitted by the reporter. Since Tendermint orders and finalizes these transactions among all the Babylon validators before sharing them to the module, all the Babylon validators will receive the same transactions and, thus, will maintain the same BTC header chain in the <code>btc_light_client</code> module. This guarantees that all Babylon vaildators make the same decisions about BTC timestamps, which is crucial for them to reach consensus.
-On the contrary, if Babylon validators consult their own BTC node, they may obtain different answers beccause those BTC nodes.
+1. whether a BTC block is part of the canonical BTC chain and its depth.
+2. whether a Bitcoin transaction's inclusion evidence is valid.
+
+These will assist Babylon nodes in making decisions on BTC timestamps. This module gets BTC headers from Tendermint that have been finalized as Babylon transactions, and the reporter then submits these transactions. All Babylon validators will get the same transactions and thus maintain the identical BTC header chain in the <code>btc_light_client</code> module. This ensures that all Babylon validators make the same conclusions about BTC timestamps, which is essential for achieving consensus.
 
 ### - No change to Tendermint
 

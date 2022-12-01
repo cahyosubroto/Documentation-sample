@@ -19,7 +19,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Babylon User Guide
+            📖 Go to our Documentation
           </Link>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Welcome to Babylon Documentation`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

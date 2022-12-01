@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/Documentation-sample/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://img1.wsimg.com/isteam/ip/6f380b15-78c1-4a0d-9bc4-3e2fa49378cf/favicon/4357e332-a7a0-4da2-8b25-8a7c4a57b9cb.jpg',
+  favicon: 'https://drive.google.com/uc?export=view&id=1LXiSzeRGG1Ij-YLozx9GcYmpmrOVBzBE',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -35,7 +35,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          includeCurrentVersion: true,
+          includeCurrentVersion: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -63,7 +63,7 @@ const config = {
         hideOnScroll: true,
         logo: {
           alt: 'My Site Logo',
-          src: 'https://img1.wsimg.com/isteam/ip/6f380b15-78c1-4a0d-9bc4-3e2fa49378cf/logo.jpg',
+          src: 'https://drive.google.com/uc?export=view&id=175ZFizw8OFJMliKTcBkChe_LlBKY5bqh',
         },
         items: [
           {
@@ -83,12 +83,12 @@ const config = {
               },
               {
                 type: 'doc',
-                label: 'Babylon Introduction',
+                label: 'Introduction',
                 docId: 'babylonintro'
               },
               {
                 type: 'doc',
-                label: 'Babylon Summary',
+                label: 'Babylon Solution',
                 docId: 'summary'
               },
             ]
@@ -117,12 +117,6 @@ const config = {
         ],
       },
       footer: {
-        logo: {
-          alt: 'Meta Open Source Logo',
-          src: 'https://img1.wsimg.com/isteam/ip/6f380b15-78c1-4a0d-9bc4-3e2fa49378cf/logo.jpg',
-          width: 160,
-          height: 25,
-        },
         style: 'dark',
         links: [
           {
@@ -161,7 +155,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        
       },
       prism: {
         theme: lightCodeTheme,

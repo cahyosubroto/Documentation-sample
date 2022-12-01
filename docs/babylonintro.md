@@ -1,8 +1,7 @@
 ---
 
-sidebar_label: Babylon Introduction
-sidebar_position: 2
-
+sidebar_label: Introduction
+sidebar_position: 1
 custom_edit_url: null
 
 ---

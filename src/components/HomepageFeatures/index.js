@@ -22,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'What Do We Do',
+    title: 'What We Do',
     Svg: require('@site/static/img/number3.svg').default,
     description: (
       <>
