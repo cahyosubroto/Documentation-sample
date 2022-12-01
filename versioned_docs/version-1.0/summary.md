@@ -203,11 +203,11 @@ monitoring work. Babylon will reward them through Babylon tokens.
 ![Alt text](https://drive.google.com/uc?export=view&id=1IfwAzbWJvIIrDDGdlIEz_Ar7yyHj5g8w)
 
 
-### - BLS multiSig
+### 4.1 BLS multiSig
 
 Our BLS multiSig reduces the checkpoint size which allows our users to use our solution to secure their chains.
 
-### - Epoched validator set rotation
+### 4.2 Epoched validator set rotation
 
 In a standard PoS blockchain, you can subscribe as a staker to lock
 your token and gain voting power at any time, and you can resign to
@@ -251,7 +251,7 @@ timestamps. If we send a timestamp every 5 minutes, our users will expect to rec
 
 
 
-### - On-chain BTC oracle
+### 4.3 On-chain BTC oracle
 The **On-chain BTC Oracle** is an application module inside the Babylon node. It is a typical BTC light client that maintains a BTC header chain, and can verify the following questions:
 
 1. whether a BTC block is part of the canonical BTC chain and its depth.
@@ -259,7 +259,7 @@ The **On-chain BTC Oracle** is an application module inside the Babylon node. It
 
 These will assist Babylon nodes in making decisions on BTC timestamps. This module gets BTC headers from Tendermint that have been finalized as Babylon transactions, and the reporter then submits these transactions. All Babylon validators will get the same transactions and thus maintain the identical BTC header chain in the <code>btc_light_client</code> module. This ensures that all Babylon validators make the same conclusions about BTC timestamps, which is essential for achieving consensus.
 
-### - No change to Tendermint
+### 4.4 No change to Tendermint
 
 <br/>
 
