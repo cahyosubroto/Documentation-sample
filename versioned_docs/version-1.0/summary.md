@@ -40,7 +40,7 @@ membership of the voting committee intentionally. In turn, their staked
 tokens will be returned along with their public key, private key, and
 other data, which they can trade freely now.
 
-![Alt text](https://drive.google.com/uc?export=view&id=1frFNDaQ6zDboGXsaCEa6eObquEtDZmlv)
+![Alt text](https://drive.google.com/uc?export=view&id=1X0uW-q-P7YYKKLOaKKFOQYiOfNGiKuPo)
 
 
 When a voter withdraws its staked tokens, the voting committee will be
@@ -116,7 +116,7 @@ both pricey and abusive usage of Bitcoin, which is not welcomed.
 ## 2. Our Solution
 
 <p align="center">
-<img src="https://drive.google.com/uc?export=view&id=1rfrrfef2YJegsEyK79qS4McY916fMdkX" alt="drawing" width="600"/>
+<img src="https://drive.google.com/uc?export=view&id=1EJvVy08Db6DB-4XMZ9gF1NReXnwZU8fA" alt="drawing" width="600"/>
 </p>
 
 
@@ -305,7 +305,7 @@ program, we know what the bitcoin chain looks like or how long it is.
 ### 5.5. Vigilante Master Monitor
 
 
-![Alt text](https://drive.google.com/uc?export=view&id=1HoSUUOMcNVuIHdNaLZXUNkyTco4nkV0U)
+![Alt text](https://drive.google.com/uc?export=view&id=1sUKk0aSQS_hjOHdQtEIDL7c2dp2vzDKL)
 
 In Vigilante Master Monitor, the BTC light client will act as the master
 monitor that will track the correctness of a BTC header oracle because
