@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Babylon Blockchain',
   tagline: 'Bringing Bitcoin Security to Cosmos & Beyond',
-  url: 'https://kakakepan.github.io',
+  url: 'https://cahyosubroto.github.io',
   baseUrl: '/Documentation-sample/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'kakakepan', // Usually your GitHub org/user name.
+  organizationName: 'cahyosubroto', // Usually your GitHub org/user name.
   projectName: 'Documentation-sample', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -85,6 +85,11 @@ const config = {
                 type: 'doc',
                 label: 'Babylon Introduction',
                 docId: 'babylonintro'
+              },
+              {
+                type: 'doc',
+                label: 'Babylon Summary',
+                docId: 'summary'
               },
             ]
           },
