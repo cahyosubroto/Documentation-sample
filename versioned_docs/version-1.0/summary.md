@@ -19,7 +19,7 @@ candidate when choosing a leader in an election.  For a block to be confirmed, i
 supermajority vote is 2/3, while a majority vote is 51%. Therefore, if
 2/3 of the population votes, we declare that a block is confirmed.
 
-![Alt text](https://drive.google.com/uc?export=view&id=16ImTP0U5ZMQNZksro7GeSK6CkDoUyrNR)
+![Alt text](https://drive.google.com/uc?export=view&id=11uzT3egRJKCpsA36XFWt1kjhJF2CCc0H)
 
 However, POS, by design, has security vulnerability if there are two forks and both blocks (seen in the figure above,
 circled) have 2/3 of the votes. It will generate the total votes to be greater than 100%, or 133%.
@@ -40,7 +40,7 @@ membership of the voting committee intentionally. In turn, their staked
 tokens will be returned along with their public key, private key, and
 other data, which they can trade freely now.
 
-![Alt text](https://drive.google.com/uc?export=view&id=1X0uW-q-P7YYKKLOaKKFOQYiOfNGiKuPo)
+![Alt text](https://drive.google.com/uc?export=view&id=1qb4Y7Rzu8FtRal335FAGdEI6cKQHP4kZ)
 
 
 When a voter withdraws its staked tokens, the voting committee will be
@@ -82,7 +82,7 @@ deep. If the latest block height is 1000, you can be sure that blocks 0
 to 994 will never be forked. Blocks 995, 996, and 997 may be forked, but
 994 and older will not be forked.
 
-![Alt text](https://drive.google.com/uc?export=view&id=1CNt8Mp5gB4w0wJ-jIxV3lsefAEnW23gn)
+![Alt text](https://drive.google.com/uc?export=view&id=1zBPa0Qdu8NJjKDDO1aWRGBzKOoHU1QFT)
 
 
 This means that the checkpoint of any chain that appears after the 6
@@ -108,7 +108,7 @@ will need at least 60 Bitcoin blocks to carry one checkpoint, which is
 both pricey and abusive usage of Bitcoin, which is not welcomed.
 
 <p align="center">
-<img src="https://drive.google.com/uc?export=view&id=1bvCDOCOvr_GX8PwCgWkOBK-jqF26-Kyw" alt="drawing" width="600"/>
+<img src="https://drive.google.com/uc?export=view&id=1P8tht82CSh-VYyBP0kAr0YLJ3cAAzVdT" alt="drawing" width="600"/>
 </p>
 
 
@@ -127,7 +127,7 @@ blocks to bitcoin. All the transactions, or the Babylon transactions,
 inside the Babylon blocks will have Bitcoin timestamps.
 
 
-![Alt text](https://drive.google.com/uc?export=view&id=1nVq7al1EyXXZi3xmu4iXM-5JtAH8BjYG)
+![Alt text](https://drive.google.com/uc?export=view&id=1hpDZvaG64vglHxnh8YVIKnj3aVnmulci)
 
 **Babylon transactions** are the checkpoints of the PoS chains. So the
 PoS chains will indirectly get Bitcoin timestamps by using Babylon.
@@ -135,7 +135,7 @@ Babylon must protect itself since it is both a cosmic chain and a PoS
 chain. In front of BTC, Babylon serves as a load balancer, accepting the
 shared massive volume of data from the PoS chain.
 
-![Alt text](https://drive.google.com/uc?export=view&id=1RL6H3e3FikKdxKPSvdYkrJw9OaaeL0bB)
+![Alt text](https://drive.google.com/uc?export=view&id=1cYGYGbXe_Fh3ITvt5HyhLMG72jWu0fum)
 
 Babylon send checkpoints to Bitcoin and accepts checkpoints from many
 PoS chains. In the future, we want to allow the general public to
@@ -162,7 +162,7 @@ votes Babylon received, it can be aggregated into just one signature,
 which is only about 40 bytes.
 
 <p align="center">
-<img src="https://drive.google.com/uc?export=view&id=1wu4RsD0qvPg8QXmN0j80jJP8C6txA9Bj" alt="drawing" width="600"/>
+<img src="https://drive.google.com/uc?export=view&id=17l3CwI0C08ZcziRbgYeHdGiY4oUsBP9z" alt="drawing" width="600"/>
 </p>
 
 
@@ -200,7 +200,7 @@ monitoring work. Babylon will reward them through Babylon tokens.
 
 ## 4. Key Design Features
 
-![Alt text](https://drive.google.com/uc?export=view&id=1IfwAzbWJvIIrDDGdlIEz_Ar7yyHj5g8w)
+![Alt text](https://drive.google.com/uc?export=view&id=1mBxt6Tm2ZH1YlyaD114HhlBbI0Hv7WUv)
 
 
 ### 4.1 BLS multiSig
@@ -271,7 +271,7 @@ you use to write the program, this program will consist of different
 components and modules. They are wired into one program, and each module
 corresponds to a thread or process within the program.
 
-![Alt text](https://drive.google.com/uc?export=view&id=1QN2DagBaGnXMgPi5Ee3s_5RLMBQMM0yk)
+![Alt text](https://drive.google.com/uc?export=view&id=1B-mIu-tfvyIvP62aUsFuuUymV863a5hI)
 
 
 ### 5.1 Epoching Module
@@ -305,7 +305,7 @@ program, we know what the bitcoin chain looks like or how long it is.
 ### 5.5. Vigilante Master Monitor
 
 
-![Alt text](https://drive.google.com/uc?export=view&id=1sUKk0aSQS_hjOHdQtEIDL7c2dp2vzDKL)
+![Alt text](https://drive.google.com/uc?export=view&id=12kbglKlPvzVwEO8LDUOKtDTV1Df_yE_D)
 
 In Vigilante Master Monitor, the BTC light client will act as the master
 monitor that will track the correctness of a BTC header oracle because
