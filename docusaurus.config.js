@@ -91,6 +91,21 @@ const config = {
                 label: 'Our Solution',
                 docId: 'summary'
               },
+              {
+                type: 'doc',
+                label: 'Introduction to Babylon',
+                docId: 'introduction'
+              },
+              {
+                type: 'doc',
+                label: 'Installation Guide',
+                docId: 'installation'
+              },
+              {
+                type: 'doc',
+                label: 'Error Handling',
+                docId: 'error'
+              },
             ]
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
