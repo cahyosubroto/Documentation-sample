@@ -35,7 +35,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          includeCurrentVersion: false,
+          includeCurrentVersion: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -67,57 +67,16 @@ const config = {
         },
         items: [
           {
-            type: 'dropdown',
+            type: 'doc',
             position: 'left',
-            label: 'Docs',
-            items: [
-              {
-                type: 'doc',
-                label: 'What is Babylon?',
-                docId: 'intro'
-              },
-              {
-                type: 'doc',
-                label: 'Building a Chain using Babylon',
-                docId: 'chainbuilding'
-              },
-              {
-                type: 'doc',
-                label: 'Introduction',
-                docId: 'babylonintro'
-              },
-              {
-                type: 'doc',
-                label: 'Our Solution',
-                docId: 'summary'
-              },
-              {
-                type: 'doc',
-                label: 'Introduction to Babylon',
-                docId: 'introduction'
-              },
-              {
-                type: 'doc',
-                label: 'Installation Guide',
-                docId: 'installation'
-              },
-              {
-                type: 'doc',
-                label: 'Error Handling',
-                docId: 'error'
-              },
-            ]
+            docId: 'introduction',
+            label: 'Docs'
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/babylonchain',
             label: 'GitHub',
             position: 'right',
-          },
-          {
-            type: 'docsVersionDropdown',
-            position: 'left',
-            dropdownActiveClassDisabled: true,
           },
           {
             href: 'https://babylonchain.io/about',
